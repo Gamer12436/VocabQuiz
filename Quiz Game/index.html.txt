@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Vocabulary Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="home-menu">
+        <h1>Vocabulary Quiz</h1>
+        <button class="button" id="start-quiz-btn">Start Quiz</button>
+        <button class="button" id="how-made-btn">How I Made This</button>
+    </div>
+
+    <div class="container hidden" id="how-made">
+        <h1>How I Made This</h1>
+        <p>This vocabulary quiz was created using HTML, CSS, and JavaScript. It features a dynamic quiz system with shuffled questions and responsive design.</p>
+        <button class="button" id="back-btn">Back</button>
+    </div>
+
+    <div class="container hidden" id="quiz-container">
+        <h1>Vocabulary Quiz</h1>
+        <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+        <div class="result" id="result"></div>
+        <div class="score" id="score"></div>
+        <button class="button" id="next-btn" style="display: none;">Next Question</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
